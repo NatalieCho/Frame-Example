@@ -5,11 +5,10 @@
 import java.awt.*;
 import java.awt.event.*;
 
-public class FrameExample implements WindowListener, MouseListener{  //implements WindowListener, MouseMotionListener klp
+public class FrameExample implements WindowListener, MouseListener{  //implements WindowListener, MouseMotionListener etc
 
     private Frame f;
 
-    /**kataskevastis*/
     public FrameExample() {
         f = new Frame("MyFrame");
         f.setSize(600,300);
